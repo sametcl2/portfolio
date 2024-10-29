@@ -80,12 +80,10 @@ export default function Experience({ params }) {
         }}
       />
       <div className="flex flex-row justify-between items-center">
-        <h1 className="font-semibold text-2xl tracking-tighter">
+        <h1 className="font-semibold text-2xl tracking-tight bg-gradient-to-r from-blue-500 to-purple-400 inline-block text-transparent bg-clip-text">
           {post.metadata.title}
         </h1>
-        <p className="text-lg tracking-tighter mt-2">
-          {post.metadata.position}
-        </p>
+        <p className="text-lg tracking-tight mt-2">{post.metadata.position}</p>
       </div>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
