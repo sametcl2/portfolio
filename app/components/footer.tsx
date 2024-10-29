@@ -21,45 +21,45 @@ export default function Footer() {
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             target="_blank"
             href="mailto:sametsahin37@hotmail.com"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">email</p>
+            <p className="font-medium ml-2 h-7">email</p>
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/sametcl2"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            <p className="font-medium ml-2 h-7">github</p>
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/sametsahin0/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">linkedin</p>
+            <p className="font-medium ml-2 h-7">linkedin</p>
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
             href="/SametSahin_Resume2024.pdf"
             download={true}
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">cv</p>
+            <p className="font-medium ml-2 h-7">cv</p>
           </a>
         </li>
       </ul>

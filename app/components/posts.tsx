@@ -19,11 +19,11 @@ export function Experiences() {
             className="flex flex-col space-y-1 mb-4"
             href={`/experiences/${post.slug}`}
           >
-            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
-              <p className="font-semibold text-lg text-neutral-900 dark:text-neutral-100 tracking-tight">
+            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2 hover:text-sky-600 dark:hover:text-sky-400">
+              <p className="font-semibold text-lg tracking-tight">
                 {post.metadata.title}
               </p>
-              <p className="text-neutral-500 dark:text-neutral-400 text-lg italic w-[400px] tabular-nums">
+              <p className="text-lg italic w-[400px] tabular-nums">
                 {post.metadata.position}
               </p>
             </div>

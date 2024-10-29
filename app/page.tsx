@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <section>
       <div className="flex flex-row justify-between items-end">
-        <h1 className="mb-8 text-3xl font-semibold tracking-tighter ">
+        <h1 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-blue-600 via-green-500 to-purple-400 inline-block text-transparent bg-clip-text">
           Hello, I'm Samet
         </h1>
         <Image

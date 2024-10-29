@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <section>
       <div className="mb-8">
-        <h1 className="text-3xl font-semibold mb-2 tracking-tighter">
+        <h1 className="text-3xl font-semibold mb-2 tracking-tight bg-gradient-to-r from-blue-600 via-green-500 to-purple-400 inline-block text-transparent bg-clip-text">
           My Experiences
         </h1>
         <p className="text-sm mb-2">
