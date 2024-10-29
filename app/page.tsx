@@ -1,21 +1,28 @@
-import { BlogPosts } from 'app/components/posts'
+import Image from "next/image";
+import { CustomMDX } from "./components/mdx";
+import { getSummary } from "./utils";
 
 export default function Page() {
+  const [summary] = getSummary();
+
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
+      <div className="flex flex-row justify-between items-end">
+        <h1 className="mb-8 text-3xl font-semibold tracking-tighter ">
+          Hello, I'm Samet
+        </h1>
+        <Image
+          src="/profile.jpeg"
+          width={120}
+          height={120}
+          alt="Picture of the author"
+          draggable="false"
+          className="rounded-2xl mr-5"
+        />
       </div>
+      <article className="prose">
+        <CustomMDX source={summary.content} />
+      </article>
     </section>
-  )
+  );
 }
