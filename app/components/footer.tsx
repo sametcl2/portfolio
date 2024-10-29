@@ -55,8 +55,9 @@ export default function Footer() {
         <li>
           <a
             className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
-            href="/SametSahin_Resume2024.pdf"
-            download={true}
+            rel="noopener noreferrer"
+            href="/SametSahin_Resume.pdf"
+            download
           >
             <ArrowIcon />
             <p className="font-medium ml-2 h-7">cv</p>

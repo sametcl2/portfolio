@@ -8,9 +8,12 @@ export default function Page() {
   return (
     <section>
       <div className="flex flex-row justify-between items-end">
-        <h1 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-blue-600 via-green-500 to-purple-400 inline-block text-transparent bg-clip-text">
-          Hello, I'm Samet
-        </h1>
+        <div className="flex flex-col md:flex-row bg-gradient-to-r from-blue-600 via-green-500 to-purple-400 text-transparent bg-clip-text">
+          <h1 className="text-3xl font-semibold tracking-tight">Hello</h1>
+          <h1 className="text-3xl font-semibold tracking-tight md:ml-2">
+            I'm Samet
+          </h1>
+        </div>
         <Image
           src="/profile.jpeg"
           width={120}
