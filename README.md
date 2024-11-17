@@ -1,1 +1,1 @@
-sametsah.in website
+Samet Sahin personal website
