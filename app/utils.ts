@@ -3,9 +3,9 @@ import path from "path";
 
 type Metadata = {
   title: string;
-  startDate: string;
-  quitDate: string;
-  position: string;
+  startDate?: string;
+  quitDate?: string;
+  position?: string;
   image?: string;
 };
 
@@ -56,6 +56,10 @@ function getMDXData(dir) {
 
 export function getExperiences() {
   return getMDXData(path.join(process.cwd(), "app", "experiences", "posts"));
+}
+
+export function getProjects() {
+  return getMDXData(path.join(process.cwd(), "app", "projects", "posts"));
 }
 
 export function getSummary() {

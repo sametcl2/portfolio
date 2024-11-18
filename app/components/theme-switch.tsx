@@ -23,7 +23,7 @@ export default function ThemeSwitch() {
     );
 
   return (
-    <div className="flex flex-row items-center mt-2 md:mt-0">
+    <div className="flex flex-row items-center mt-2 mr-5">
       {theme === "light" ? (
         <Moon onClick={() => setTheme("dark")} />
       ) : (

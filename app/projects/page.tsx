@@ -1,4 +1,4 @@
-import { Experiences } from "app/components/experiences";
+import { Projects } from "app/components/projects";
 
 export const metadata = {
   title: "Experiences",
@@ -10,13 +10,11 @@ export default function Page() {
     <section>
       <div className="mb-8">
         <h1 className="text-3xl font-semibold mb-2 tracking-tight bg-gradient-to-r from-blue-500 to-purple-400  inline-block text-transparent bg-clip-text">
-          My Experiences
+          My Projects
         </h1>
-        <p className="text-sm mb-2">
-          You can click each to see more details and projects.
-        </p>
+        <p className="text-sm mb-2">The projects that I want to mention</p>
       </div>
-      <Experiences />
+      <Projects />
     </section>
   );
 }

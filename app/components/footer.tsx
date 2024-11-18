@@ -18,7 +18,7 @@ function ArrowIcon() {
 export default function Footer() {
   return (
     <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <ul className="font-sm mt-8 flex flex-col md:flex-row md:space-x-4 md:space-y-0 space-x-0 space-y-2 text-neutral-600 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
@@ -63,7 +63,18 @@ export default function Footer() {
             <p className="font-medium ml-2 h-7">cv</p>
           </a>
         </li>
+        <li></li>
       </ul>
+      <div className="mt-10">
+        <a
+          className="flex items-center transition-all text-neutral-600 dark:text-neutral-300 hover:text-sky-600 dark:hover:text-sky-400"
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/sametcl2/portfolio"
+        >
+          Made with <span className="mx-1">&#9829;</span> on this repo
+        </a>
+      </div>
     </footer>
   );
 }

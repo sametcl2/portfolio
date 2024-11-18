@@ -88,8 +88,8 @@ export default function Experience({ params }) {
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {`${formatExperienceDate(
-            post.metadata.startDate
-          )} - ${formatExperienceDate(post.metadata.quitDate)}`}
+            post.metadata.startDate as string
+          )} - ${formatExperienceDate(post.metadata.quitDate as string)}`}
         </p>
       </div>
       <article className="prose">

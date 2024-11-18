@@ -8,7 +8,11 @@ export function Experiences() {
     <div>
       {allExperiences
         .sort((a, b) => {
-          if (new Date(a.metadata.startDate) > new Date(b.metadata.startDate)) {
+          if (
+            a.metadata.startDate &&
+            b.metadata.startDate &&
+            new Date(a.metadata.startDate) > new Date(b.metadata.startDate)
+          ) {
             return -1;
           }
           return 1;

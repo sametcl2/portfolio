@@ -11,11 +11,12 @@ const navItems = {
   "/experiences": {
     name: "experiences",
   },
+  "/projects": {
+    name: "projects",
+  },
 };
 
 export function Navbar() {
-  const { theme, setTheme } = useTheme();
-
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
