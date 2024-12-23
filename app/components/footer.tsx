@@ -21,7 +21,7 @@ export default function Footer() {
       <ul className="font-sm mt-8 flex flex-col md:flex-row md:space-x-4 md:space-y-0 space-x-0 space-y-2 text-neutral-600 dark:text-neutral-300">
         <li>
           <a
-            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
+            className="flex items-center transition-all hover:text-sky-700 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             target="_blank"
             href="mailto:sametsahin37@hotmail.com"
@@ -32,7 +32,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
+            className="flex items-center transition-all hover:text-sky-700 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/sametcl2"
@@ -43,7 +43,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
+            className="flex items-center transition-all hover:text-sky-700 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/sametsahin0/"
@@ -54,7 +54,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-sky-600 dark:hover:text-sky-400"
+            className="flex items-center transition-all hover:text-sky-700 dark:hover:text-sky-400"
             rel="noopener noreferrer"
             href="/SametSahin_Resume.pdf"
             download
@@ -67,7 +67,7 @@ export default function Footer() {
       </ul>
       <div className="mt-10">
         <a
-          className="flex items-center transition-all text-neutral-600 dark:text-neutral-300 hover:text-sky-600 dark:hover:text-sky-400"
+          className="flex items-center transition-all text-neutral-600 dark:text-neutral-300 hover:text-sky-700 dark:hover:text-sky-400"
           rel="noopener noreferrer"
           target="_blank"
           href="https://github.com/sametcl2/portfolio"

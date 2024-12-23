@@ -7,6 +7,7 @@ type Metadata = {
   quitDate?: string;
   position?: string;
   image?: string;
+  line?: string;
 };
 
 function isDate(date) {

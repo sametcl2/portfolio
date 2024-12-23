@@ -94,7 +94,7 @@ html {
 }
 
 .prose strong {
-  @apply font-medium tracking-tight;
+  @apply font-semibold tracking-normal;
 }
 
 .prose ul {
