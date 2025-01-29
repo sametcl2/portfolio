@@ -6,6 +6,7 @@ import { Navbar } from "./components/nav";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
 import { ThemeProvider } from "next-themes";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -52,6 +53,7 @@ export default function RootLayout({
       )}
       suppressHydrationWarning
     >
+      <GoogleTagManager gtmId="G-XTS218RD77" />
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
