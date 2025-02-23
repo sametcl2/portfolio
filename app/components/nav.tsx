@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useTheme } from "next-themes";
+import { usePathname } from "next/navigation";
 import ThemeSwitch from "./theme-switch";
 
 const navItems = {
@@ -17,6 +17,7 @@ const navItems = {
 };
 
 export function Navbar() {
+  const currentPage = usePathname();
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
@@ -30,7 +31,9 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className="transition-all font-medium hover:text-sky-700 dark:hover:text-sky-400 flex align-middle relative py-1 px-2 m-1"
+                  className={`transition-all font-medium ${
+                    currentPage === path && `text-sky-400`
+                  } hover:text-sky-700 dark:hover:text-sky-400 flex align-middle relative py-1 px-2 m-1`}
                 >
                   {name}
                 </Link>
