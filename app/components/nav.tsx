@@ -32,8 +32,8 @@ export function Navbar() {
                   key={path}
                   href={path}
                   className={`transition-all font-medium ${
-                    currentPage === path && `text-sky-400`
-                  } hover:text-sky-700 dark:hover:text-sky-400 flex align-middle relative py-1 px-2 m-1`}
+                    currentPage === path && `text-sky-700 dark:text-sky-400`
+                  } hover:text-sky-700 hover:dark:text-sky-400 flex align-middle relative py-1 px-2 m-1`}
                 >
                   {name}
                 </Link>

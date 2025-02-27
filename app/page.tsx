@@ -9,7 +9,7 @@ export default function Page() {
     <section>
       <div className="flex flex-row justify-between items-end">
         <div className="flex flex-col md:flex-row bg-gradient-to-r from-blue-500 to-purple-400 text-transparent bg-clip-text">
-          <h1 className="text-3xl font-bold tracking-tight">Hello</h1>
+          <h1 className="text-3xl font-bold tracking-tight">Hello, </h1>
           <h1 className="text-3xl font-bold tracking-tight md:ml-2">
             I'm Samet
           </h1>

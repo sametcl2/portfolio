@@ -53,7 +53,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <GoogleTagManager gtmId="G-XTS218RD77" />
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="antialiased max-w-xl mx-4 lg:mx-auto">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Main>{children}</Main>
         </ThemeProvider>

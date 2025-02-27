@@ -27,6 +27,9 @@ export function Projects() {
               <p className="font-semibold text-lg text-neutral-900 dark:text-neutral-100 tracking-tight">
                 {post.metadata.title}
               </p>
+              <p className="text-neutral-500 dark:text-neutral-400 text-lg italic w-[400px] tabular-nums">
+                {post.metadata?.description}
+              </p>
             </div>
           </Link>
         ))}
