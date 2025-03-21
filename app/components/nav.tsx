@@ -6,7 +6,7 @@ import ThemeSwitch from "./theme-switch";
 
 const navItems = {
   "/": {
-    name: "home",
+    name: "about",
   },
   "/experiences": {
     name: "experiences",
