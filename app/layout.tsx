@@ -52,7 +52,10 @@ export default function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <GoogleTagManager gtmId="G-XTS218RD77" />
+      <GoogleTagManager
+        gtmId="G-XTS218RD77"
+        gtmScriptUrl="https://www.googletagmanager.com/gtag/js?id=G-XTS218RD77"
+      />
       <body className="antialiased max-w-xl mx-4 lg:mx-auto">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Main>{children}</Main>
