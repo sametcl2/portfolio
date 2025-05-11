@@ -52,9 +52,9 @@ export default function RootLayout({
         gtmId="G-XTS218RD77"
         gtmScriptUrl="https://www.googletagmanager.com/gtag/js?id=G-XTS218RD77"
       />
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-black dark:text-white dark:bg-slate-950"></div>
-      <body className="antialiased max-w-xl mx-4 lg:mx-auto">
+      <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <div className="absolute top-0 z-[-2] h-full w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-black dark:text-white dark:bg-slate-950"></div>
           <Main>{children}</Main>
         </ThemeProvider>
       </body>
