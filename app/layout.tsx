@@ -45,17 +45,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cx(
-        "text-black bg-white dark:text-white dark:bg-black",
-        GeistSans.variable,
-        GeistMono.variable
-      )}
+      className={cx("relative", GeistSans.variable, GeistMono.variable)}
       suppressHydrationWarning
     >
       <GoogleTagManager
         gtmId="G-XTS218RD77"
         gtmScriptUrl="https://www.googletagmanager.com/gtag/js?id=G-XTS218RD77"
       />
+      <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-black dark:text-white dark:bg-slate-950"></div>
       <body className="antialiased max-w-xl mx-4 lg:mx-auto">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Main>{children}</Main>
