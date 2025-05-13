@@ -52,10 +52,10 @@ export default function RootLayout({
         gtmId="G-XTS218RD77"
         gtmScriptUrl="https://www.googletagmanager.com/gtag/js?id=G-XTS218RD77"
       />
-      <body>
+      <body className="h-full xlg:h-screen">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="absolute top-0 z-[-2] h-full w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-black dark:text-white dark:bg-slate-950"></div>
           <Main>{children}</Main>
+          <div className="absolute top-0 z-[-2] h-full w-full bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-30%,rgba(88,86,195,0.4),rgba(255,255,255,0))] text-black dark:text-white dark:bg-neutral-950"></div>
         </ThemeProvider>
       </body>
     </html>
